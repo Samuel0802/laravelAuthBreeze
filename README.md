@@ -22,3 +22,11 @@ Este projeto tem como objetivo estudar e praticar o uso do Laravel Breeze para i
  - composer require laravel/breeze --dev
  - php artisan breeze:install
 
+ * Traduzir projeto para Portugues no laravel
+
+ - https://github.com/lucascudo/laravel-pt-BR-localization
+
+ - php artisan lang:publish
+ - composer require lucascudo/laravel-pt-br-localization --dev
+ - php artisan vendor:publish --tag=laravel-pt-br-localization
+
