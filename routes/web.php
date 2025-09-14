@@ -5,8 +5,10 @@ use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
+
+Route::get('/home', [MainController::class, 'nova_pagina_publica'])->name('nova_pagina_publica');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -20,6 +22,7 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth'])->group(function(){
     Route::get('/nova_pagina',[MainController::class, 'nova_pagina'])->name('nova_pagina');
+       Route::get('/testes',[MainController::class, 'testes'])->name('testes');
 });
 
 
