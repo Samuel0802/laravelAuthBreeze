@@ -21,6 +21,8 @@ Este projeto tem como objetivo estudar e praticar o uso do Laravel Breeze para i
 
  - composer require laravel/breeze --dev
  - php artisan breeze:install
+ - npm install
+ - npm run dev 
 
  * Traduzir projeto para Portugues no laravel
 
