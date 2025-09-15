@@ -15,6 +15,23 @@ Este projeto tem como objetivo estudar e praticar o uso do Laravel Breeze para i
 
 ```
 
+### Observação
+ - Foi Utilizado tela padrão do Laravel Breeze para realizar login e cadastro de usuário
+   
+
+### O intuito é servir como base para outros projetos em Laravel que necessitem de:
+- Cadastro de usuários
+- Login e Logout
+- Recuperação de senha via e-mail
+- Confirmação de e-mail
+
+  ## 🚀 Tecnologias Utilizadas
+- Laravel 12
+- Laravel Breeze
+- PHP 8.2+
+- Composer
+- PostgreSQL
+
 ### Instalações
 
 * Instalação do Laravel Breeze
